@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.box{
+    width: 300px;
+    height: 500px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 2px 5px 10px rgb(17, 16, 16);
+    border-radius: 10px;    
+    padding: 15px;;
+    
+}
+
+.box_img{    
+    width: 295px;
+    height: 300px;
+    border-radius: 10px;
+    /*overflow: hidden;*/
+}
+
+.box_img img{
+    width: 100%;
+    object-fit: contain;
+     border-radius: 10px;
+}
+
+.box_contenu{   
+    width: 295px;
+    /*height: 100px;*/
+    padding: 5px;   
+    
+}
+
+.box_contenu1{    
+    width: 293px;
+    height: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+    
+}
+.box_contenu2{   
+    width: 293px;
+    height: 20px;
+    padding: 10px;
+}
+.box_contenu3{    
+    padding: 20px;
+    width: 293px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.box_contenu4{
+    padding: 10px;
+    width: 293px;
+    height: 20px;
+    display: flex;
+    
+}
+
+.box_contenu4_img img{
+    
+    border-image: linear-gradient(#ffffff, #ffffff) 30;
+}
